@@ -9,3 +9,18 @@
 #
 # > 120
 #
+
+# def factorial(num):
+#   x = 1
+#   for i in range(1, num + 1):
+#     x *= i
+#     return x
+
+def factorial(number):
+  product = 1
+  for i in range(1, number + 1, 1):
+    product *= i
+  return product
+
+print(factorial(5))
+

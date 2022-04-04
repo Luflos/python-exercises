@@ -13,3 +13,14 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+def p_times(statement, num):
+  # x=0
+  # while x < num:
+  #   print(statement)
+  #   x += 1
+
+  for i in range(num):
+    print(statement)
+
+p_times('Loona', 5)
